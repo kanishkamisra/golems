@@ -1,0 +1,19 @@
+---
+title: "Statistical Rethinking Week 2 Notes"
+author: "Kanishka Misra"
+date: "5/7/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Linear Model
+
+\begin{align}
+  y_i \sim Normal(\mu, \sigma)\\
+  \mu = \beta x_i \\
+  \beta \sim Normal(0, 10)\\
+  \sigma \sim Exponential(1)
+\end{align}
